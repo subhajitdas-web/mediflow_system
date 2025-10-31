@@ -1,26 +1,26 @@
 mediflow_system/
-├── config/
-│   └── db.php
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-│   └── called_patient.js
-├── index.php
-├── login.php
-├── logout.php
-├── register.php
-├── book_appointment.php
-├── call_patient.php
-├── called_patient.php
-├── called_patient_data.php
-├── delete_user.php
-├── complete_appointment.php
-├── refer_patient.php
-├── export_data.php
-├── admin_dashboard.php
-├── doctor_dashboard.php
-├── patient_dashboard.php
+1. config/
+   1a. db.php
+2. css/
+   2a. style.css
+3. js/
+   3a. script.js
+   3b. called_patient.js
+4. index.php
+5. login.php
+6. logout.php
+7. register.php
+8. book_appointment.php
+9. call_patient.php
+10. called_patient.php
+11. called_patient_data.php
+12. delete_user.php
+13. complete_appointment.php
+14. refer_patient.php
+15. export_data.php
+16. admin_dashboard.php
+17. doctor_dashboard.php
+18. patient_dashboard.php
 
 ****The Mediflow System is a web-based hospital management application designed to streamline hospital operations by managing user registrations, appointments, patient queues, and administrative tasks. 
 	Automate appointment booking and management.
@@ -55,3 +55,4 @@ Patient: Book appointments (generates a token), view appointments with token and
 
 Patient Calling: Doctors can click "Call Patient" to set status to 'called', then "Complete".
 Logout: Clears session and redirects to the homepage.
+
